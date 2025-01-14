@@ -10,7 +10,7 @@ jobs:
         with:
           files: README.md
           dest: build.zip
-      - uses: actions/upload-artifact@v4
-        with:
-          name: zip file
-          path: '${{ github.workspace }}/build.zip'
+      # - uses: actions/upload-artifact@v4
+      #   with:
+      #     name: zip file
+      #     path: '${{ github.workspace }}/build.zip'
